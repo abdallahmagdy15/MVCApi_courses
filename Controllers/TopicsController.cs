@@ -12,6 +12,7 @@ using Lab2;
 
 namespace Lab2.Controllers
 {
+    [Authorize]
     public class TopicsController : ApiController
     {
         private Model1 db = new Model1();

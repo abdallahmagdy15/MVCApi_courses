@@ -12,7 +12,7 @@ using Lab2;
 
 namespace Lab2.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class CoursesController : ApiController
     {
         private Model1 db = new Model1();
